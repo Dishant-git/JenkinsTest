@@ -12,7 +12,7 @@ import com.base.TestBase;
 public class SMSLoginPage extends TestBase{
 
 	//Objects
-	@FindBy(how=How.NAME, using = "user-name1")
+	@FindBy(how=How.NAME, using = "user-name")
 	WebElement userName;
 
 	@FindBy(how=How.NAME, using = "password")
