@@ -37,7 +37,7 @@ public class TestCustomerFlow extends TestBase {
 		initialization(environment, "siteURL");
 		smsloginpage = new SMSLoginPage();
 		smsheaderpage = smsloginpage.setDefaultLoginDetails(environment);
-		smsheaderpage.verifyTitlePostLogin("Swag Labs");
+		smsheaderpage.verifyTitlePostLogin("Original Swag Labs");
 		smsheaderpage.productAddToCart();
 		smsheaderpage.validateWhetherItemAddedToCart("Sauce Labs Backpack");
 		smsyourcart = smsheaderpage.goToShoppingCart();
